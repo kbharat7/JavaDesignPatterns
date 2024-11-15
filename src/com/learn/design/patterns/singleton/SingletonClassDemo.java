@@ -2,6 +2,7 @@ package com.learn.design.patterns.singleton;
 
 public class SingletonClassDemo {
     public static void main(String[] args) {
+        //get 2 instances and we see the reference is same
         SingletonClass singletonClass = SingletonClass.getInstance();
         System.out.println(singletonClass);
 
